@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Goldman');
+
 main {
     height: 100%;
+    font-family: 'Goldman';
 }
 
 #container {
