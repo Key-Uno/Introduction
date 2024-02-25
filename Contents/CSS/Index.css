@@ -1,0 +1,22 @@
+.top__title {
+
+}
+
+.top__content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+    margin-top: 28px;
+    @media screen and (min-width: 600px) {
+        margin-top: 32px;
+    }
+}
+
+.top__content-textarea-text {
+    margin-top: 20px;
+}
+
+.top__content-imagearea {
+    max-width: 400px;
+}

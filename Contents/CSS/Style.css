@@ -2,12 +2,38 @@
 
 main {
     height: 100%;
-    font-family: 'Goldman';
+    font-family: 'Inter', sans-serif;
+
+    width: 95%;
+    margin: 0 auto;
+
+    @media screen and (min-width: 600px) {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    @media screen and (min-width: 1025px) {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 
-#container {
-    margin: 0 auto;
-    width: 200px;
-    height: 200px;
-    position: relative;
-  }
+.container {
+    margin-top: 40px;
+}
+
+.text-title {
+    font-size: 24px;
+    @media screen and (min-width: 600px) {
+        font-size: 36px;
+    }
+}
+
+.text-body {
+    font-size: 14px;
+    line-height: 1.6rem;
+    @media screen and (min-width: 600px) {
+        font-size: 16px;
+        line-height: 2rem;
+    }
+}
